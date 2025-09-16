@@ -42,7 +42,7 @@
       },
       "msbuild_settings": {
         "ClCompile": {
-          "AdditionalOptions": ["-std:c++17"]
+          "AdditionalOptions": ['/std:c++20', '/Zc:__cplusplus']
         }
       }
     }
