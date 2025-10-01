@@ -15,7 +15,16 @@
         "src/c/bzip2/randtable.c",
         "src/c/bzip2/blocksort.c",
         "src/c/bzip2/huffman.c",
-        "src/c/bzip2/decompress.c"
+        "src/c/bzip2/decompress.c",
+        "src/DiffWorkerCallback.hpp",
+        "src/PatchWorkerCallback.hpp",
+        "src/Util.hpp",
+        "src/c/err.h",
+        "src/c/shared.h",
+        "src/c/bsdiff/bsdiff.h",
+        "src/c/bspatch/bspatch.h",
+        "src/c/bzip2/bzlib.h",
+        "src/c/bzip2/bzlib_private.h"
       ],
       "conditions": [
         ['OS=="win"', {
